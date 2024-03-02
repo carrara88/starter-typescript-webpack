@@ -6,10 +6,10 @@
 	],
 	"settings": {
 		"workbench.colorCustomizations": {
-			"statusBar.background": "#3b9b71",
-			"titleBar.activeBackground": "#3b9b71",
-			"activityBarBadge.background": "#3b9b71",
-			"activityBar.activeBorder": "#3b9b71"
+			"statusBar.background": "#3b689b",
+			"titleBar.activeBackground": "#3b689b",
+			"activityBarBadge.background": "#3b689b",
+			"activityBar.activeBorder": "#3b689b"
 		},
 		"window.titleBarStyle": "custom"
 	}

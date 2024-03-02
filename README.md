@@ -5,8 +5,8 @@
 First, we'll create a new project folder and initialize it with npm, Node.js's package manager. This step sets up the groundwork for managing our project's dependencies.
 
 ```bash
-mkdir your-project-name
-cd your-project-name
+mkdir <my-project-name>
+cd <my-project-name>
 ```
 
 ## Step 2: Installing Dependencies
@@ -123,7 +123,7 @@ Edit `index.html` and `assets/styles.css` as follows:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>starter-typescript-webpack</title>
+    <title><my-project-name></title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -144,7 +144,7 @@ Edit `src/index.ts` as follow:
 ```typescript
 /* src/index.ts */
 document.addEventListener('DOMContentLoaded', function () {
-  document.body.innerHTML = "starter-typescript-webpack project is compiled";
+  document.body.innerHTML = "<my-project-name> project is compiled";
 });
 ```
 
@@ -155,9 +155,9 @@ To streamline our development workflow, we'll add custom scripts to our `package
 
 ```json
 {
-  "name": "starter-typescript-webpack",
+  "name": "<my-project-name>",
   "version": "0.0.1",
-  "description": "starter-typescript-webpack project",
+  "description": "<my-project-name> project",
   "main": "dist/bundle.js",
   "scripts": {
     "start": "webpack serve --open",
