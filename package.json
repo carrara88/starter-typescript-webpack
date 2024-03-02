@@ -4,10 +4,9 @@
   "description": "starter-typescript-webpack project",
   "main": "dist/bundle.js",
   "scripts": {
-    "start": "webpack serve --open",
-    "dev": "webpack --mode=development",
-    "build": "webpack --mode=production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack serve --open",
+    "build-dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
   },
   "keywords": [
     "starter",
