@@ -4,8 +4,8 @@
   "description": "starter-typescript-webpack project",
   "main": "dist/bundle.js",
   "scripts": {
-    "dev": "webpack serve --open",
-    "build-dev": "webpack --mode=development",
+    "dev": "webpack serve --mode=development --open",
+    "start": "webpack serve --mode=production --open",
     "build": "webpack --mode=production"
   },
   "keywords": [

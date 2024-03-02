@@ -160,10 +160,9 @@ To streamline our development workflow, we'll add custom scripts to our `package
   "description": "<my-project-name> project",
   "main": "dist/bundle.js",
   "scripts": {
-    "start": "webpack serve --open",
-    "dev": "webpack --mode=development",
-    "build": "webpack --mode=production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack serve --mode=development --open",
+    "start": "webpack serve --mode=production --open",
+    "build": "webpack --mode=production"
   },
   "keywords": [
     "starter",
